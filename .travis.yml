@@ -5,9 +5,7 @@ install:
 
 matrix:
   include:
-    - haxe: development
-      hxml:
+    - hxml:
         - build-neko.hxml
-    - haxe: development
-      hxml:
+    - hxml:
         - build-macro.hxml
